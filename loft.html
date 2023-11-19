@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loft</title>
+    <link rel="stylesheet" href="loft.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="frame">
+      <header class="container">
+          <nav class="header__nav">
+              <a class="header__nav-item" href="#">Главная</a>
+              <a class="header__nav-item" href="#">О нас</a>
+              <a class="header__nav-item" href="#">Контакты</a>
+          </nav>
+          <nav class="header__nav2">
+              <div class="header__nav2-phone">
+                <a class="header__phone-link" href="#">
+                <img class="header__delivery-pic" src="./src/phone.svg" alt="phone" />
+                <div class="phone">8 (964) 89 99 119</div>
+              </a>  
+            </div>
+            <div class="header__nav2-delivery">
+              <a class="header__delivery-link" href="#">
+                <img class="header__delivery-pic" src="./src/delivery-icon.svg" alt="phone" />
+                <div class="delivery">Доставка</div>
+              </a>                
+            </div>
+          </nav>
+      </header>
+
+      <section class="search">
+        <div class="search__logo">
+          <img src="./src/search/LOGO.svg" alt="logo">
+        </div>
+        <div class="search__string">
+          <img class="search__pic" src="./src/search/search-icon.svg" alt="search"/>
+          <input class="search__input" type="search" placeholder="Поиск" />
+        </div>
+        <div class="search__nav">
+          <button class="search__nav-btn">
+            <a class="link_btn" href="https://www.dom.by/">
+              <img src="./src/search/wishlist-icon.svg" alt="list"/>
+            </a>
+          </button>
+          <button class="search__nav-btn">
+            <a class="link_btn" href="https://www.dom.by/">
+              <img src="./src/search/cart.svg" alt="list"/>
+            </a>
+          </button>
+          <button class="search__nav-btn">
+            <a class="link_btn" href="https://www.dom.by/">
+              <img src="./src/search/profile-icon.svg" alt="list"/>
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <section class="navigation">
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img class="navigation__pic" src="./src/navigation/kitchen-icon.svg" alt="list"/>
+            <div class="navigation__name">Кухни</div>
+          </a>
+        </button>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img src="./src/navigation/bedroom-icon.svg" alt="list"/>
+            <div class="navigation__name">Спальни</div>
+          </a>
+        </button>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img src="./src/navigation/livingroom-icon.svg" alt="list"/>
+            <div class="navigation__name">Гостинные</div>
+          </a>
+        </button>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img src="./src/navigation/closet-icon.svg" alt="list"/>
+            <div class="navigation__name">Прихожие</div>
+          </a>
+        </button>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img src="./src/navigation/office-icon.svg" alt="list"/>
+            <div class="navigation__name">Офисная мебель</div>
+          </a>
+        </button>
+        <span>
+          <button class="navigation__point">
+            <a class="navigation__link" href="https://www.dom.by/">
+              <img src="./src/navigation/childrensroom-icon.svg" alt="list"/>
+              <div class="navigation__name">Детская</div>
+            </a>
+          </button>
+        </span>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <div class="navigation__discount">Акция</div>
+          </a>
+        </button>
+        <button class="navigation__point">
+          <a class="navigation__link" href="https://www.dom.by/">
+            <img class="navigation__etc"src="./src/navigation/etc.svg" alt="list"/>
+          </a>
+        </button>
+      </section>
+
+      <section class="slide">
+        <div class="slide__frame">
+            <div class="slide__frame-text">
+              <div class="slide__title">loft </br> мебель</div>
+              <div class="slide__text">Современная и удобная мебель в Анапе</div>
+            </div>
+            <button class="slide__btn">
+              <a class="slide__link" href="https://www.dom.by/">Смотреть каталог</a>
+            </button>
+            <div class="slide__arrows">
+              <div class="slide__arrow-right" src="./src/slide/" alt="sw">
+            </div>  
+        </div>
+      </section>
+
+      <h1 class="menu__title">Хиты продаж</h1>
+      <section class="menu">
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image1.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Валенсия Beige</div>
+            <div class="menu__items-content">Барные стулья</div>
+            <div class="menu__items-price">2 300₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image2.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Толикс-2 White Gloss</div>
+            <div class="menu__items-content">Барные стулья</div>
+            <div class="menu__items-price">4 690₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image3.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Динс Velvet Yellow</div>
+            <div class="menu__items-content">Диваны</div>
+            <div class="menu__items-price">28 490₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image4.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Кускен Navy Blue</div>
+            <div class="menu__items-content">Диваны</div>
+            <div class="menu__items-price">2 300₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image5.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Шерона Barhat Grey</div>
+            <div class="menu__items-content">Двухспальная кровать</div>
+            <div class="menu__items-price">21 990₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image6.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Авиньон-1</div>
+            <div class="menu__items-content">Буфеты</div>
+            <div class="menu__items-price">18 990₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image7.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Стелла Дуб Сонома</div>
+            <div class="menu__items-content">Комоды</div>
+            <div class="menu__items-price">8 990₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="menu__items">
+          <button class="menu__items-btn">
+            <img src="./src/menu/like.svg"/>
+          </button>
+          <div class="menu__items-pic">
+            <img src="./src/menu/image8.svg">
+          </div>
+          <div class="menu__items-text">
+            <div class="menu__items-title">Равенна-1 Light</div>
+            <div class="menu__items-content">Буфеты</div>
+            <div class="menu__items-price">14 990₽</div>
+          </div>
+          <div class="menu__items_footer">
+            <div class="animation">
+              <div class="menu__items_footer-title">Размеры</div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ШИРИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ГЛУБИНА</div>
+                <div class="whd_value">43 СМ</div>
+                <img class="footer_cross" src="./src/menu/cross.svg"/>
+              </div>
+              <div class="menu__items_footer-whd">
+                <div class="whd">ВЫСОТА</div>
+                <div class="whd_value">77 СМ</div>
+              </div>
+            </div>
+            <div class="hidden__button">
+              <button class="menu__button">
+                <a class="menu__button-link" href="https://www.dom.by/">Добавить в корзину</a>
+              </button> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="down">
+        <div class="down__title">НАВИГАЦИЯ</div>
+        <div class="column">
+          <div class="down__column">
+            <div class="down__string">Кухни</div>
+            <div class="down__string">Спальни</div>
+            <div class="down__string">Гостинные</div>
+          </div>
+          <div class="down__column">
+            <div class="down__string">Прихожие</div>
+            <div class="down__string">Офисная мебель</div>
+            <div class="down__string">Детская</div>
+          </div>
+          <div class="down__column">
+            <div class="down__string">Шкафы</div>
+            <div class="down__string">Матрасы</div>
+            <div class="down__string">Мягкая мебель</div>
+          </div>
+        </div>
+        <span class="down__sale">Акция</span>
+        <div class="down__news">Новости</div>
+        <div class="down__logo">
+          <img src="./src/footer/logo.svg"/>
+        </div>
+        <div class="down__address">г. Анапа, Анапское шоссе,</br>
+          30 Ж/К Черное море
+        </div>
+        <div class="down__connect">
+          <div class="down__connect-phone">
+            <a class="footer__phone-link" href="https://www.dom.by/">
+              <img class="down__phone-pic" src="./src/footer/phone.svg" alt="phone" />
+              <div class="down__phone">8 (964) 89 99 119</div>
+            </a>
+          </div>
+          <div class="down__connect-inst">
+            <a class="footer__inst-link" href="https://www.dom.by/">
+              <img class="down__inst-pic" src="./src/footer/inst.svg" alt="instagram" />
+              <div class="down__inst">Instagram</div>
+            </a>
+          </div>
+          <div class="down__connect-mail">
+            <a class="footer__mail-link" href="https://www.dom.by/">
+              <img class="down__mail-pic" src="./src/footer/mail.svg" alt="mail" />
+              <div class="down__mail">mebel_loft_anapa@mail.ru</div>
+            </a>
+          </div>
+        </div>  
+      </footer>
+    </main>
+  </body>
+</html>      
